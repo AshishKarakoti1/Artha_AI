@@ -14,13 +14,12 @@ const AppRoutes = () => {
   return (
     <Routes>
       {/* 🔹 PUBLIC ROUTES */}
-      <Route path="/" element={<Dashboard />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
 
       {/* 🔹 PROTECTED ROUTES */}
       <Route
-        path="/dashboard"
+        path="/"
         element={
           <ProtectedRoute>
             <DashboardLayout>

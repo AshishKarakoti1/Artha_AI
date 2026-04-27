@@ -31,7 +31,7 @@ const Login = () => {
       localStorage.setItem("token", data.token);
 
       setUser(data);
-      navigate("/dashboard");
+      navigate("/");
     } catch (err) {
       alert(err.response?.data?.message || "Login failed");
     } finally {

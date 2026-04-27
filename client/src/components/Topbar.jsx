@@ -3,7 +3,6 @@ import { useAuth } from "../store/AuthContext";
 
 const Topbar = () => {
   const { user, logout } = useAuth();
-
   return (
     <div className="sticky top-0 flex items-center justify-between px-6 py-4 border-b border-slate-200 bg-white">
       

@@ -7,10 +7,12 @@ import {
   Lightbulb,
   LogOut,
 } from "lucide-react";
+import { useAuth } from "../store/AuthContext";
 
 const Sidebar = () => {
   const navigate = useNavigate();
   const { pathname } = useLocation();
+  const { user, logout } = useAuth();
 
   const navItems = [
     { name: "Dashboard", path: "/dashboard", icon: LayoutDashboard },

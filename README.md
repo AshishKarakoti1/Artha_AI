@@ -4,6 +4,20 @@
 
 ---
 
+## 👥 Team Members
+
+| Name                | Role               |
+| ------------------- | ------------------ |
+| **Agam Garg**       | Developer          |
+| **Abhinav Savarni** | Developer          |
+| **Ashish Karakoti** | Developer          |
+| **Akash**           | Developer          |
+| **Dr. Gifty Gupta** | Project Supervisor |
+
+> Developed at **Chitkara University, Punjab** 
+
+---
+
 ## 📌 Project Overview
 
 **ArthaAI** is an intelligent personal finance advisory system designed to help users **track expenses, plan financial goals, analyze savings behavior, and receive actionable recommendations**.
@@ -134,20 +148,6 @@ Uses **MongoDB document-based schema** for flexibility.
 ### Authentication
 
 * JWT-based authentication
-
----
-
-## 👥 Team Members
-
-| Name                | Role               |
-| ------------------- | ------------------ |
-| **Agam Garg**       | Developer          |
-| **Abhinav Savarni** | Developer          |
-| **Ashish Karakoti** | Developer          |
-| **Akash**           | Developer          |
-| **Dr. Gifty Gupta** | Project Supervisor |
-
-> Developed at **Chitkara University, Punjab** 
 
 ---
 

@@ -5,6 +5,7 @@ import Button from "../components/Button";
 import AuthLayout from "../layouts/AuthLayout";
 import { loginAPI } from "../api/auth.api";
 import { useAuth } from "../store/AuthContext";
+import Dashboard from "./Dashboard";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -31,7 +32,7 @@ const Login = () => {
       localStorage.setItem("token", data.token);
 
       setUser(data);
-      navigate("/");
+      navigate("/dashboard");
     } catch (err) {
       alert(err.response?.data?.message || "Login failed");
     } finally {

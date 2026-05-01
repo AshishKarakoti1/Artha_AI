@@ -15,7 +15,7 @@ const Sidebar = () => {
   const { user, logout } = useAuth();
 
   const navItems = [
-    { name: "Dashboard", path: "/", icon: LayoutDashboard },
+    { name: "Dashboard", path: "/dashboard", icon: LayoutDashboard },
     { name: "Expenses", path: "/expenses", icon: Wallet },
     { name: "Goals", path: "/goals", icon: Target },
     { name: "Recommendations", path: "/recommendations", icon: Lightbulb },

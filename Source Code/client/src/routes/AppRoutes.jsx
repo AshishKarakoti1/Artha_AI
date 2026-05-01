@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import Landing from "../pages/Landing";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Dashboard from "../pages/Dashboard";
@@ -13,13 +14,15 @@ import DashboardLayout from "../layouts/DashboardLayout";
 const AppRoutes = () => {
   return (
     <Routes>
+
       {/* 🔹 PUBLIC ROUTES */}
+      <Route path="/" element={<Landing />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
 
       {/* 🔹 PROTECTED ROUTES */}
       <Route
-        path="/"
+        path="/dashboard"
         element={
           <ProtectedRoute>
             <DashboardLayout>
@@ -72,6 +75,7 @@ const AppRoutes = () => {
           </ProtectedRoute>
         }
       />
+
     </Routes>
   );
 };
